@@ -1,0 +1,15 @@
+export enum FailureCode {
+  InsufficientBalance = 'INSUFFICIENT_BALANCE',
+  ReversalWouldCauseNegativeBalance = 'REVERSAL_WOULD_CAUSE_NEGATIVE_BALANCE',
+  ReferenceNotFound = 'REFERENCE_NOT_FOUND',
+  ReferenceInvalid = 'REFERENCE_INVALID',
+  ReferenceAlreadyReversed = 'REFERENCE_ALREADY_REVERSED',
+  AmountMismatch = 'AMOUNT_MISMATCH',
+  CurrencyMismatch = 'CURRENCY_MISMATCH',
+  WalletMismatch = 'WALLET_MISMATCH',
+  PlayerMismatch = 'PLAYER_MISMATCH',
+  RoundMismatch = 'ROUND_MISMATCH',
+  InvalidTransactionKind = 'INVALID_TRANSACTION_KIND',
+  InvalidPayload = 'INVALID_PAYLOAD',
+  PermanentInfrastructureFailure = 'PERMANENT_INFRASTRUCTURE_FAILURE',
+}
